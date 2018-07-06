@@ -1,4 +1,8 @@
 .header-wrapper {
+    grid-row: header-s/header-e;
+    grid-column: content-s/content-e;
+
+
 
     display: grid;
     grid-template-columns: [s] 1fr [e];
@@ -11,7 +15,7 @@
 
     }
     &__subtitle {
-        grid-row: sub-e/sub-e;
+        grid-row: sub-s/sub-e;
         grid-column: s/e;
     }
 }
@@ -30,3 +34,4 @@
         line-height: 2rem;
     }
 }
+
